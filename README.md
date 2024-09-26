@@ -45,7 +45,7 @@ from typing import Any
 game_url: str = "<game-url>"
 auth_data: dict[str, Any] = await client.auth_user(game_url)
 
-Print the authentication token and save it for later use.
+# Print the authentication token and save it for later use.
 print("Authentication Token:", auth_data["result"]["tokens"]["authenticate"])
 ```
 
